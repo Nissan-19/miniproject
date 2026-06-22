@@ -87,15 +87,12 @@ const App = () => {
     <div style={appStyle}>
       <h1>Theme + Auth Dashboard</h1>
       
-      <Navbar isLoggedIn={isLoggedIn} theme={theme} />
+      <Navbar  />
 
-      <Dashboard dashboardMessage={dashboardMessage} />
+      <Dashboard />
      
       <ActionPanel 
-        login={login} 
-        isLoggedIn={isLoggedIn} 
-        logout={logout} 
-        toggleTheme={toggleTheme} />
+        />
 
       
     </div>
